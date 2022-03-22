@@ -18,4 +18,4 @@ const palindrom = (kalimat) => {
 }
 
 
-palindrom('aba')
+palindrom('malamm')

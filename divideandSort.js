@@ -5,12 +5,12 @@ const divide = (num) => {
 
     arr.map((item) => {
         let newArr = [...item]
-        console.log(newArr)
+        // console.log(newArr)
         newArr = newArr.sort()
 
         hasil.push(newArr)
     })
-    console.log(hasil)
+    // console.log(hasil)
     hasil = hasil.join().replaceAll(",", "")
     console.log(parseInt(hasil))
 
